@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopWatch</title>
+       <link
+        href="https://fonts.googleapis.com/css2?family=Badeen+Display&family=Gasoek+One&family=Noto+Sans+JP:wght@100..900&family=Orbitron:wght@400..900&family=Plaster&family=Sixtyfour+Convergence&family=Tilt+Prism&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="timer.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stopWatch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <a href="index.html" class="title" >Digital CLock <i class="fa-solid fa-clock"></i></a>
+            <a href="timer.html" class="links" title="Go to timer page">Timer <i class="fa-solid fa-hourglass-half"></i></a>
+            <a href="stopWatch.html" class="links" title="Go to stop watch page">Stop Watch <i class="fa-solid fa-stopwatch-20"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="stopWatchContent">
+            <div class="topContent">
+                <h1 class="titleName">StopWatch</h1>
+            </div>
+            <div class="mainContent">
+                <div class="displayOutput">
+                    <h1 class="minutes">00</h1>
+                    <h1>:</h1>
+                    <h1 class="seconds">00</h1>
+                    <h1>:</h1>
+                    <h1 class="milliSec">00</h1>
+                </div>
+                <div class="button">
+                    <button class="btns" id="startTimer">Start</button>
+                    <button class="btns"id="pauseTimer">pause</button>
+                    <button class="btns"id="resetTimer">reset</button>
+                    <button class="btns"id="addLaps">lap</button>
+                </div>
+                <ul class="lapsList">
+
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="stopWatch.js"></script>
+</body>
+</html>

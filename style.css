@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.title{
+    color: white;
+    font-family: "Orbitron";
+    font-size:30px;
+    font-weight: 900;
+    margin-left: 20px;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px black,
+    0px 0px 10px black,
+    0px 0px 10px black,
+    0px 0px 10px black;
+}
+.links{
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Orbitron";
+    font-weight: 900;
+    width: 30%;
+    outline: white;
+    text-shadow: 0px 0px 10px black,
+    0px 0px 10px black,
+    0px 0px 10px black,
+    0px 0px 10px black;
+    
+}
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-color:#301934 ;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: center  ;
+
+}
+.topContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleName{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: "Orbitron";
+    text-decoration: wavy;
+    text-decoration-color: white;
+    text-shadow: 
+    0 0 5px #00ffcc,
+    0 0 10px #00ffcc,
+    0 0 20px #00ffcc,
+    0 0 30px #00ffff;
+
+
+}
+@keyframes rotation{
+    from
+    {
+        transform: rotateY(0deg);
+        opacity: 0;
+    }
+    to
+    {
+        transform: rotateY(360deg);
+        opacity:1;
+    }
+}
+.earth{
+    height: 70%;
+    width: 70%;
+    margin-top: 20px;
+    display:none;
+}
+.earthAnimation{
+    animation:rotation 3s infinite linear;
+    display: block; 
+    
+}
+.displayLocation{
+    color: #00FFD0;
+    font-family: "Orbitron";
+    margin: 30px;
+}
+.displayArea{
+    font-family: 'VT323', monospace;
+    color: #00FFD0;
+    margin:20px;
+}
+.getLocation{
+    height: 10%;
+    width: 17%;
+    border:2px dahsed black;
+    border-radius:15px;
+    margin: 20px;
+    cursor:pointer;
+    font-weight: 900;
+    font-size: 15px;
+    text-align:center;
+    background-color: #26A69A;
+    color: #01257D;
+    font-family: "Orbitron";
+}
+.displayTime{
+    font-family: 'VT323', monospace;
+    /* font-family: "Orbitron"; */
+    color: #00FFD0;
+    margin: 30px;
+    font-size: 50px;
+}
+@keyframes timeAnimation{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:0.5
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.displayTimeAnimation{
+    animation: timeAnimation 3s 1 linear; 
+    text-shadow: 2px 2px black;
+    
+    
+}
+.timeContent{
+    height: 50%;
+    width: 70%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    
+    
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Badeen+Display&family=Gasoek+One&family=Noto+Sans+JP:wght@100..900&family=Orbitron:wght@400..900&family=Plaster&family=Sixtyfour+Convergence&family=Tilt+Prism&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stopWatch.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <div class="navBar">
+            <a href="index.html" class="title" >Digital CLock <i class="fa-solid fa-clock"></i></a>
+            <a href="timer.html" class="links" title="Go to timer page">Timer <i class="fa-solid fa-hourglass-half"></i></a>
+            <a href="stopWatch.html" class="links" title="Go to stop watch page">Stop Watch <i class="fa-solid fa-stopwatch-20"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="topContent">
+                <h1 class="titleName">Digital Clock</h1>
+                <img src="asiaEarth.png" alt="img not found" class="earth">
+            </div>
+            <div class="timeContent">
+                <h1 class="displayTime"></h1>
+                <h1 class="displayLocation"></h1>
+                <h1 class="displayArea"></h1>
+                <button class="getLocation">Get Location</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

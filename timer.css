@@ -1,0 +1,95 @@
+.timerContent{
+    height: 100vh;
+    width: 100vw;
+    background-color: #162447;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.displayTimerContent{
+    margin-top: 20px;
+    height: 70%;
+    width: 50%;
+    background-color: #1f4068;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.displayMinSec{
+    background-color: black;
+    height: 20%;
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.min{
+    width: 40%;;
+    height: 70%;
+    /* background-color: gray; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec{
+    width: 40%;;
+    height: 70%;
+    /* background-color: gray; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minutes, .seconds{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    margin-bottom:50px ;
+    border:2px solid lime;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    background-color: #212B36;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "Orbitron";
+}
+.timerInput{
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    border:2px solid lime;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 50%;
+    color: white;
+    background-color: #212B36;
+    font-weight: 900;
+    font-size: 20px;
+}
+.timerInput::placeholder{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "Orbitron";
+    /* border:2px solid lime; */
+}
+
+input:focus{
+    outline: none;
+}

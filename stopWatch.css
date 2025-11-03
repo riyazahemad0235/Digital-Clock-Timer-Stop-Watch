@@ -1,0 +1,75 @@
+.stopWatchContent{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1C1C1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainContent{
+    height: 80%;
+    width: 45%;
+    background-color: lightgreen;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #00000080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* rgb(31 41 55) */
+.displayOutput{
+    width: 80%;
+    height: 20%;
+    background-color: #1C1C1E;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.displayOutput h1{
+    font-size: 50px;
+}
+.button{
+    margin-top: 20px;
+    height: 50%;
+    width: 90%;
+    /* background-color: #1C1C1E; */
+    border-radius:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+.btns{
+    height: 70px;
+    width: 30%;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: "Plaster";
+    cursor: pointer;
+    background-color: #212B36;
+    color: whitesmoke;
+    box-shadow: 0px 0px 10px black;
+}
+#startTimer{
+   width: 80%;
+   
+}
+.laps{
+    font-size:30px;
+    font-weight: 900;
+    font-family: "Orbitron";
+    text-shadow: 0px 0px 5px black;
+    
+}
+.list{
+    list-style-type: none;
+
+}
